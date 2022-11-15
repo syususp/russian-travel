@@ -1,4 +1,14 @@
 .page {
     background-color: #2A2C2F;
-    
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.lead__image {
+    width: 90%;
+}
+
+.cover__background {
+    width: 90%;
 }

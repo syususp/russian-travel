@@ -9,3 +9,6 @@
     position: relative;
 }
 
+.cover:hover .transparent {
+    opacity: 0.3;
+}

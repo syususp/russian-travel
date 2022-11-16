@@ -1,0 +1,10 @@
+.places__place {
+    list-style: none;
+    text-decoration: none;
+    margin: 0 auto 80px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
+    grid-gap: 48px;
+}

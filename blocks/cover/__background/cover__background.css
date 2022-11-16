@@ -2,4 +2,9 @@
     width: 100%;
     position: relative;
     z-index: 1;
+    opacity: 0.8;
+}
+
+.cover__background:hover {
+    opacity: 0.3;
 }

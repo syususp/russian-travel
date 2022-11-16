@@ -1,0 +1,131 @@
+@media screen and (max-width: 1024px) {
+    
+    .lead {
+        width: 90%;
+    }
+
+    .intro {
+        width: 90%;
+    }
+    
+    .places {
+        width: 90%;
+    }
+
+    .cover {
+        width: 100%;
+    }
+
+    .photo-grid {
+        grid-template-columns: repeat(3, 1fr);    
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .lead__image {
+        width: 100vw;
+    }
+
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);    
+    }
+
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .place__paragraph {
+        font-size: 16px;
+    }
+
+    .place__website-url-heading {
+        line-height: 12px;
+    }
+
+    .lead__title {
+        font-size: calc(100vw / 8);
+        line-height: calc(100vw / 7.68);
+    }
+    
+    .lead__subtitle {
+        font-size: calc(100vw / 20);
+        line-height: calc(100vw / 16);
+    }
+
+    /* .header__lang-link {
+        font-size: calc(100vw / 32);
+        line-height: calc(100vw / 27.8);
+    } */
+    
+}
+
+@media screen and (max-width: 320px) {
+
+    .photo-grid {
+        grid-template-columns: repeat(1, 1fr);    
+    }
+
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
+
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .place__paragraph {
+        font-size: 16px;
+    }
+
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .footer__link {
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0;
+        padding: 0 0 32px;
+    }
+
+    .footer__copyright {
+        text-align: left;
+    }
+}

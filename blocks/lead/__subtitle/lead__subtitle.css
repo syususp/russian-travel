@@ -5,8 +5,8 @@
     line-height: 36px;
     text-align: center;
     color: #FFFFFF;
-    width: 640px;
-    height: 72px;
+    max-width: 640px;
+    max-height: 72px;
     margin: 32px auto 64px;
     padding: 0;
 }

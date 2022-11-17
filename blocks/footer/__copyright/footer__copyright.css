@@ -8,4 +8,5 @@
     text-align: right;
     color: #FFFFFF;
     flex-grow: 1;
+    white-space: nowrap;
 }

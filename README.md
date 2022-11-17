@@ -35,7 +35,7 @@
 
 **Технологии, использованные при разработке сайта**
 
-* HTML
+* HTML <img src="./images/html_y.png" width="64" />
 * CSS
 * CSS-Grid
 * CSS Flexbox

@@ -35,7 +35,7 @@
 
 **Технологии, использованные при разработке сайта**
 
-* HTML <img src="./images/html_y.png" width="64" align="center" />
+* HTML <p align="center"><img src="./images/html_y.png" width="64" /></p>
 
 * CSS <img src="./images/html_y.png" width="64" />
 * 

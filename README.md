@@ -38,3 +38,17 @@
 | HTML <img align="left" src="./images/html_y.png" width="64" /> | CSS-Grid <img align="left" src="./images/grid_y.png" width="64" />    |
 |----------------------------------------------------------------|-----------------------------------------------------------------------|
 | CSS <img align="left" src="./images/css_y.png" width="64" />   | CSS Flexbox <img align="left" src="./images/flex_y.png" width="64" /> |
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> a0249baf72687b8b63157170a71c296ef557823a

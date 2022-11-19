@@ -6,4 +6,38 @@
     color: #FFFFFF;
     margin: 0;
     padding: 0;
+    max-width: 460px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__title {
+        max-width: 460px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        font-size: calc((100vw - 320px)/(768 - 320) * (42 - 32) + 32px);
+        line-height: calc((100vw - 320px)/(768 - 320) * (46 - 35) + 35px);
+    }
+}
+
+@media screen and (max-width: 687px) {
+    .place__title {
+        grid-area: 1 / 1 / 2 / 1;
+        margin: 0 16px 0;
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__title {
+        /* grid-area: 1 / 1 / 2 / 1; */
+        width: 90%;
+        margin: 0 auto;
+        font-size: 32px;
+        line-height: 35px;
+    }
 }

@@ -1,17 +1,15 @@
-.footer {
-    max-width: 92.5%;
-    margin: 0 auto;
-    padding: 0 0 24px;
+.footer__navigation {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    flex-wrap: nowrap;
 }
 
 @media screen and (max-width: 689px) {
-    .footer {
+    .footer__navigation {
         display: flex;
         flex-direction: column;
-        justify-content:left;
-        max-width: 90%;
+        justify-content: flex-start;
     }
 }
+

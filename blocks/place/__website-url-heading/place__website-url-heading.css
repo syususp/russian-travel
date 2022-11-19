@@ -4,7 +4,14 @@
     font-size: 12px;
     line-height: 12px;
     letter-spacing: 2px;
+    text-transform: uppercase;
     color: #AAAAAA;
     margin: 0 0 12px;
     padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .place__website-url-heading {
+        line-height: 12px;
+    }
 }

@@ -8,7 +8,23 @@
     margin: 32px auto 0;
     padding: 0;
     max-width: 360px;
-    min-height: 66px;
-    position: relative;
-    z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        font-size: calc((100vw - 320px)/(768 - 320) * (18 - 14) + 14px);
+        line-height: calc((100vw - 320px)/(768 - 320) * (22 - 16) + 16px);
+        margin-top: calc((100vw - 320px)/(768 - 320) * (32 - 16) + 16px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 288px;
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+        box-sizing: border-box;
+    }
 }

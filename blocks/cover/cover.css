@@ -1,14 +1,25 @@
 .cover {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    max-width: 92.5%;
     margin: 0 auto 92px;
     padding: 0;
     background: #2A2C2F;
     position: relative;
 }
 
-.cover:hover .transparent {
-    opacity: 0.3;
+@media screen and (max-width: 1024px) {
+    .cover {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin-bottom: calc((100vw - 320px)/(768 - 320) * (88 - 64) + 64px);
+        max-width: 100%;
+        margin-top: 66px;
+    }
 }

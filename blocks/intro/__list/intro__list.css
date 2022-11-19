@@ -2,4 +2,11 @@
     margin: 0 0 92px;
     padding: 0;
     list-style: none;
+    max-width: 690px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__list {
+        margin-bottom: calc((100vw - 320px)/(768 - 320) * (88 - 64) + 64px);
+    }
 }

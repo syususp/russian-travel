@@ -7,9 +7,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 800px;
+    min-height: 740px;
     z-index: 2;
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,6 +19,8 @@
 .cover__link::before {
     content: "";
     position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     background-color: #2A2C2F;
@@ -30,8 +33,20 @@
     opacity: .8;
   }
 
-  @media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .cover__link {
-        min-height: calc((100vw - 320px)/(1280 - 320) * (800 - 200) + 200px);
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__link {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 687px) {
+    .cover__link {
+        min-height: 200px;
     }
 }

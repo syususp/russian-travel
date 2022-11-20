@@ -7,6 +7,13 @@
     align-items: center;
 }
 
+@media screen and (max-width: 1024px) {
+    .header {
+        width: 90.625%;
+        padding-bottom: 48px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .header {
         width: 93.75%;
@@ -17,5 +24,6 @@
     .header {
         width: 90%;
         padding-bottom: 48px;
+        padding-top: 16px;
     }
 }

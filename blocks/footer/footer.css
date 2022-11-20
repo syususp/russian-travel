@@ -7,9 +7,20 @@
     justify-content: flex-start;
 }
 
+@media screen and (max-width: 1024px) {
+    .footer {
+        max-width: 90.625%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        max-width: 93.75%;
+    }
+}
+
 @media screen and (max-width: 689px) {
     .footer {
-        display: flex;
         flex-direction: column;
         justify-content:left;
         max-width: 90%;

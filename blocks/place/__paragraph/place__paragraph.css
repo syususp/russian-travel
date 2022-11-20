@@ -11,8 +11,6 @@
 }
 
 .place__paragraph:last-child {
-    grid-row: -1 / -2;
-    grid-column: 3 / 2;
     padding-bottom: 0;
 }
 
@@ -25,16 +23,14 @@
 @media screen and (max-width: 687px) {
     .place__paragraph {
         grid-area: 4 / 1 / 5 / 1;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
         padding: 0 16px 25px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__paragraph {
-        grid-area: 4 / 1 / 5 / 1;
         width: 90%;
-        margin: 0 auto;
-        font-size: 16px;
     }
 }

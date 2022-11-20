@@ -1,21 +1,16 @@
 .intro {
-    max-width: 928px;
+    max-width: 984px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     padding: 0 48px;
 }
 
-@media screen and (max-width: 1024px) {
-    .intro {
-        max-width: 928px;
-        padding: 24px;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .intro {
         max-width: calc((100vw - 320px)/(768 - 320) * (768 - 320) + 320px);
+        padding-left: 24px;
+        padding-right: 24px;
     }
 }
 

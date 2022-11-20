@@ -13,13 +13,14 @@
 @media screen and (max-width: 768px) {
     .places {
         max-width: calc((100vw - 320px)/(768 - 320) * (768 - 320) + 320px);
-        padding: 0 24px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 }
 
 @media screen and (max-width: 687px) {
     .places {
-        margin: 0 auto;
+        margin-bottom: 0;
         width: 320px;
         padding: 0;
     }

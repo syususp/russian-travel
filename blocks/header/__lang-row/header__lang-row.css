@@ -2,7 +2,14 @@
     display: flex;
     flex-direction: row;
     margin: 0;
-    padding: 0;
+    padding: 15px 0 0;
     list-style-type: none;
     list-style: none;
 }
+
+@media screen and (max-width: 320px) {
+    .header__lang-row {
+        padding: 7px 0 0;
+    }
+}
+

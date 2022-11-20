@@ -8,7 +8,6 @@
     text-align: right;
     color: #FFFFFF;
     flex-grow: 1;
-    white-space: nowrap;
 }
 
 @media screen and (max-width: 689px) {
